@@ -1,6 +1,6 @@
 const twilio = require('twilio') //import
 const client = twilio(
-    process.env.TWILIO_ACCOUNT_SID = "string account ssid",
+    process.env.TWILIO_ACCOUNT_SID = "string of account ssid",
     process.env.TWILIO_AUTH_TOKEN = "string of auth"
 )
 
